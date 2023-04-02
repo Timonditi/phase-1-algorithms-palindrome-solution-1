@@ -12,6 +12,17 @@ function isPalindrome(str) {
 console.assert(isPalindrome('abba') === true, 'Expected isPalindrome("abba") to be true');
 
 /* 
+Add your pseudocode here
+reverse the input string
+if the reversed string is the same as the input
+  return true
+else
+  return false
+  
+*/
+
+/*
+  Add written explanation of your solution here
 // Compare the first and last characters of the string,
 // then move inward until the whole string has been checked
 // If we've made it through the loop without returning false,
